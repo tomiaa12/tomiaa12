@@ -15,7 +15,7 @@
   </defs>
   <rect width="1300" height="360" rx="28" fill="url(#bg)"/>
   <rect x="1" y="1" width="1298" height="358" rx="27" stroke="#F6C453" stroke-opacity="0.45"/>
-  <text x="52" y="78" fill="#F6C453" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" letter-spacing="2.2">02  ·  LAUNCHER  ·  RUST</text>
+  <text x="52" y="78" fill="#F6C453" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" letter-spacing="2.2">03  ·  LAUNCHER  ·  RUST</text>
   <text x="52" y="146" fill="#FFF8EA" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="54" font-weight="700">Quka</text>
   <text x="52" y="198" fill="#F3E6CC" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="22">双击 Ctrl 或 Command，打开本机应用。</text>
   <text x="52" y="234" fill="#B5A488" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="16">Double-tap Ctrl or Command to open an installed app.</text>

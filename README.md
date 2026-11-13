@@ -5,6 +5,17 @@
 
 <a href="https://github.com/tomiaa12?tab=repositories"><img src="https://img.shields.io/github/stars/tomiaa12?style=for-the-badge&amp;logo=github&amp;label=stars&amp;color=4f6ef7" alt="stars"></a> <a href="https://github.com/tomiaa12?tab=followers"><img src="https://img.shields.io/github/followers/tomiaa12?style=for-the-badge&amp;logo=github&amp;label=followers&amp;color=8b5cf6" alt="followers"></a> <a href="https://kuangyx.cn"><img src="https://img.shields.io/badge/website-kuangyx.cn-0f766e?style=for-the-badge" alt="kuangyx.cn"></a>
 
+<img src="assets/divider-nes.svg" width="100%" alt="">
+
+## nesRoms
+
+<a href="https://github.com/tomiaa12/nesRoms"><img src="assets/card-nesroms.svg" width="100%" alt="nesRoms. 400+ 全中文红白机游戏 ROM。 A Chinese-language archive of NES games."></a>
+
+<b>400+ 全中文红白机游戏 ROM。</b>红白机、FC，游戏 ROM 放在一个仓库里。<br>
+<b>A Chinese-language archive of NES games.</b> NES and Famicom ROMs, collected in one repository.
+
+<a href="https://github.com/tomiaa12/nesRoms"><img src="https://img.shields.io/github/stars/tomiaa12/nesRoms?style=for-the-badge&amp;logo=github&amp;label=nesRoms&amp;color=e11d48" alt="nesRoms on GitHub"></a>
+
 <img src="assets/divider-multara.svg" width="100%" alt="">
 
 ## Multara
@@ -27,28 +38,6 @@
 <b>Double-tap Ctrl or Command to open an installed app.</b> Find an app that is already installed, then open it.
 
 <a href="https://github.com/tomiaa12/Quka"><img src="https://img.shields.io/github/stars/tomiaa12/Quka?style=for-the-badge&amp;logo=github&amp;label=Quka&amp;color=c9922a" alt="Quka on GitHub"></a>
-
-<img src="assets/divider-mockly.svg" width="100%" alt="">
-
-## Mockly
-
-<a href="https://github.com/tomiaa12/chrome-plugin-mockly"><img src="assets/card-mockly.svg" width="100%" alt="Mockly. 在 DevTools 里拦截并改写网络请求。 Intercept and rewrite network requests in Chrome DevTools."></a>
-
-<b>在 DevTools 里拦截并改写网络请求。</b>在面板里把某一条请求换成你写好的响应。<br>
-<b>Intercept and rewrite network requests in Chrome DevTools.</b> Swap one request for a response you wrote.
-
-<a href="https://github.com/tomiaa12/chrome-plugin-mockly"><img src="https://img.shields.io/github/stars/tomiaa12/chrome-plugin-mockly?style=for-the-badge&amp;logo=github&amp;label=Mockly&amp;color=8b5cf6" alt="Mockly on GitHub"></a>
-
-<img src="assets/divider-nes.svg" width="100%" alt="">
-
-## nesRoms
-
-<a href="https://github.com/tomiaa12/nesRoms"><img src="assets/card-nesroms.svg" width="100%" alt="nesRoms. 400+ 全中文红白机游戏 ROM。 A Chinese-language archive of NES games."></a>
-
-<b>400+ 全中文红白机游戏 ROM。</b>红白机、FC，游戏 ROM 放在一个仓库里。<br>
-<b>A Chinese-language archive of NES games.</b> NES and Famicom ROMs, collected in one repository.
-
-<a href="https://github.com/tomiaa12/nesRoms"><img src="https://img.shields.io/github/stars/tomiaa12/nesRoms?style=for-the-badge&amp;logo=github&amp;label=nesRoms&amp;color=e11d48" alt="nesRoms on GitHub"></a>
 
 <img src="assets/divider-blog.svg" width="100%" alt="">
 
