@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14080B"/>
+      <stop offset="1" stop-color="#3A141C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 20) scale(340)">
+      <stop stop-color="#FF5A6A" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#FF5A6A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.035"/>
+    </pattern>
+    <clipPath id="screen">
+      <rect x="746" y="78" width="300" height="196" rx="6"/>
+    </clipPath>
+  </defs>
+  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="28" fill="url(#grid)"/>
+  <rect width="1280" height="360" rx="28" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1278" height="358" rx="27" stroke="#FF5A6A" stroke-opacity="0.42"/>
+  <text x="56" y="78" fill="#FF8B96" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" letter-spacing="2.4">04  ·  ARCHIVE  ·  NES</text>
+  <text x="56" y="148" fill="#FFF5F6" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="56" font-weight="700">nesRoms</text>
+  <text x="56" y="204" fill="#F8DDE1" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="24">400+ 全中文红白机游戏 ROM。</text>
+  <text x="56" y="242" fill="#C9A0A8" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="18">A Chinese-language archive of NES games.</text>
+  <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="14">
+    <rect x="56" y="274" width="64" height="32" rx="16" fill="#FF5A6A" fill-opacity="0.18"/>
+    <text x="88" y="295" fill="#FFD5DA" text-anchor="middle">FC</text>
+    <rect x="130" y="274" width="92" height="32" rx="16" fill="#F6C453" fill-opacity="0.14"/>
+    <text x="176" y="295" fill="#FFE7B0" text-anchor="middle">400+</text>
+  </g>
+  <g>
+    <rect x="724" y="56" width="344" height="248" rx="16" fill="#1A0C10" stroke="#FF5A6A" stroke-opacity="0.35"/>
+    <rect x="746" y="78" width="300" height="196" fill="#0E1A33"/>
+    <g clip-path="url(#screen)">
+      <rect x="746" y="78" width="300" height="120" fill="#16325C"/>
+      <rect x="860" y="96" width="28" height="28" fill="#F6C453"/>
+      <rect x="746" y="186" width="300" height="16" fill="#2F6B3A"/>
+      <rect x="746" y="202" width="300" height="16" fill="#3E8A48"/>
+      <rect x="746" y="218" width="300" height="56" fill="#6B4423"/>
+      <rect x="770" y="168" width="16" height="28" fill="#F4F7FF"/>
+      <rect x="786" y="176" width="16" height="20" fill="#FF5A6A"/>
+      <rect x="802" y="160" width="12" height="36" fill="#F6C453"/>
+      <rect x="930" y="150" width="20" height="46" fill="#1C7A43"/>
+      <rect x="922" y="162" width="36" height="12" fill="#1C7A43"/>
+      <rect x="980" y="198" width="48" height="12" fill="#D8DEE9"/>
+    </g>
+    <rect x="1084" y="96" width="78" height="168" rx="8" fill="#C4374A"/>
+    <rect x="1096" y="112" width="54" height="70" rx="4" fill="#F4E4C4"/>
+    <rect x="1104" y="196" width="38" height="8" rx="2" fill="#F4E4C4" fill-opacity="0.7"/>
+    <rect x="1104" y="212" width="28" height="8" rx="2" fill="#F4E4C4" fill-opacity="0.45"/>
+    <rect x="1096" y="236" width="54" height="10" rx="2" fill="#7A1E2C"/>
+  </g>
+</svg>

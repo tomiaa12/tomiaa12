@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B14"/>
+      <stop offset="1" stop-color="#12182A"/>
+    </linearGradient>
+    <radialGradient id="glowIndigo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 40) scale(420)">
+      <stop stop-color="#6D7CFF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#6D7CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowMint" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 400) scale(280)">
+      <stop stop-color="#3EE0B0" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#3EE0B0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#grid)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#glowIndigo)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#glowMint)"/>
+  <rect x="1" y="1" width="1278" height="418" rx="27" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="64" y="128" fill="#8EA0C8" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" letter-spacing="3.5">GITHUB  ·  TOMIAA12</text>
+  <text x="64" y="206" fill="#F4F7FF" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="72" font-weight="700">tomiaa</text>
+  <text x="64" y="262" fill="#E6EBF6" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="26">把能用的软件做出来，并放在公开的地方。</text>
+  <text x="64" y="302" fill="#8EA0C8" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="20">I build software you can open, and I keep the work in public.</text>
+  <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15">
+    <rect x="64" y="338" width="118" height="36" rx="18" fill="#6D7CFF" fill-opacity="0.16" stroke="#6D7CFF" stroke-opacity="0.45"/>
+    <text x="123" y="361" fill="#C9D2FF" text-anchor="middle">Desktop</text>
+    <rect x="194" y="338" width="118" height="36" rx="18" fill="#C084FC" fill-opacity="0.14" stroke="#C084FC" stroke-opacity="0.4"/>
+    <text x="253" y="361" fill="#E4D4FF" text-anchor="middle">Browser</text>
+    <rect x="324" y="338" width="92" height="36" rx="18" fill="#3EE0B0" fill-opacity="0.12" stroke="#3EE0B0" stroke-opacity="0.4"/>
+    <text x="370" y="361" fill="#C8F8E8" text-anchor="middle">Web</text>
+    <rect x="428" y="338" width="150" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="503" y="361" fill="#C5CEDF" text-anchor="middle">kuangyx.cn</text>
+  </g>
+</svg>

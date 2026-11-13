@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B16"/>
+      <stop offset="1" stop-color="#141B38"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 40) scale(380)">
+      <stop stop-color="#6D7CFF" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#6D7CFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="28" fill="url(#grid)"/>
+  <rect width="1280" height="360" rx="28" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1278" height="358" rx="27" stroke="#7C8CFF" stroke-opacity="0.45"/>
+  <text x="56" y="78" fill="#9AABFF" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" letter-spacing="2.4">01  ·  DESKTOP  ·  RUST</text>
+  <text x="56" y="148" fill="#F4F7FF" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="56" font-weight="700">Multara</text>
+  <text x="56" y="204" fill="#E6EBF6" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="24">一个窗口，放下所有 AI 编程智能体。</text>
+  <text x="56" y="242" fill="#93A0BD" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="18">A local-first workbench for Claude Code, Codex, and Cursor.</text>
+  <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="14">
+    <rect x="56" y="274" width="78" height="32" rx="16" fill="#6D7CFF" fill-opacity="0.16"/>
+    <text x="95" y="295" fill="#D5DCFF" text-anchor="middle">Tasks</text>
+    <rect x="144" y="274" width="96" height="32" rx="16" fill="#5EEAD4" fill-opacity="0.12"/>
+    <text x="192" y="295" fill="#C9F8EF" text-anchor="middle">Monaco</text>
+    <rect x="250" y="274" width="64" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.06"/>
+    <text x="282" y="295" fill="#D5DDED" text-anchor="middle">Git</text>
+  </g>
+  <g transform="translate(700,48)">
+    <rect width="524" height="264" rx="18" fill="#0A1022" stroke="#7C8CFF" stroke-opacity="0.4"/>
+    <rect width="524" height="40" rx="18" fill="#141B36"/>
+    <rect y="20" width="524" height="20" fill="#141B36"/>
+    <circle cx="22" cy="20" r="5" fill="#FF5F57"/>
+    <circle cx="40" cy="20" r="5" fill="#FEBC2E"/>
+    <circle cx="58" cy="20" r="5" fill="#28C840"/>
+    <text x="262" y="25" fill="#A9B4D0" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="13">Multara</text>
+    <rect x="14" y="54" width="118" height="196" rx="10" fill="#0E152C"/>
+    <rect x="28" y="72" width="70" height="8" rx="4" fill="#7C8CFF"/>
+    <rect x="28" y="94" width="86" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+    <rect x="28" y="112" width="62" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.1"/>
+    <rect x="28" y="130" width="78" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.1"/>
+    <rect x="28" y="148" width="54" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.1"/>
+    <rect x="146" y="54" width="230" height="196" rx="10" fill="#090E1C"/>
+    <rect x="164" y="74" width="110" height="7" rx="3" fill="#7C8CFF" fill-opacity="0.85"/>
+    <rect x="164" y="94" width="176" height="7" rx="3" fill="#5EEAD4" fill-opacity="0.55"/>
+    <rect x="164" y="114" width="92" height="7" rx="3" fill="#FFFFFF" fill-opacity="0.16"/>
+    <rect x="164" y="134" width="154" height="7" rx="3" fill="#FFFFFF" fill-opacity="0.16"/>
+    <rect x="164" y="154" width="128" height="7" rx="3" fill="#F6C453" fill-opacity="0.7"/>
+    <rect x="164" y="174" width="168" height="7" rx="3" fill="#FFFFFF" fill-opacity="0.12"/>
+    <rect x="390" y="54" width="120" height="196" rx="10" fill="#121936"/>
+    <rect x="402" y="72" width="96" height="40" rx="10" fill="#7C8CFF" fill-opacity="0.28"/>
+    <rect x="402" y="124" width="96" height="32" rx="10" fill="#FFFFFF" fill-opacity="0.06"/>
+    <rect x="402" y="166" width="78" height="32" rx="10" fill="#5EEAD4" fill-opacity="0.2"/>
+  </g>
+</svg>

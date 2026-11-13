@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071410"/>
+      <stop offset="1" stop-color="#12352C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1060 30) scale(360)">
+      <stop stop-color="#3EE0B0" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#3EE0B0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="28" fill="url(#grid)"/>
+  <rect width="1280" height="360" rx="28" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1278" height="358" rx="27" stroke="#3EE0B0" stroke-opacity="0.4"/>
+  <text x="56" y="78" fill="#8EF0D2" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" letter-spacing="2.4">05  ·  SITE  ·  BLOG</text>
+  <text x="56" y="148" fill="#F3FFFB" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="56" font-weight="700">KYX Box</text>
+  <text x="56" y="204" fill="#DDF6EE" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="24">我的技术博客，写在 kuangyx.cn。</text>
+  <text x="56" y="242" fill="#8FB8AC" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="18">Notes and pages, published at kuangyx.cn.</text>
+  <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="14">
+    <rect x="56" y="274" width="118" height="32" rx="16" fill="#3EE0B0" fill-opacity="0.16"/>
+    <text x="115" y="295" fill="#D8FFF3" text-anchor="middle">kuangyx.cn</text>
+    <rect x="184" y="274" width="78" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.06"/>
+    <text x="223" y="295" fill="#DDF6EE" text-anchor="middle">Notes</text>
+  </g>
+  <g transform="translate(700,48)" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">
+    <rect width="524" height="264" rx="18" fill="#0C1C18" stroke="#3EE0B0" stroke-opacity="0.35"/>
+    <rect width="524" height="40" rx="18" fill="#123028"/>
+    <rect y="20" width="524" height="20" fill="#123028"/>
+    <circle cx="22" cy="20" r="5" fill="#FF5F57"/>
+    <circle cx="40" cy="20" r="5" fill="#FEBC2E"/>
+    <circle cx="58" cy="20" r="5" fill="#28C840"/>
+    <rect x="168" y="8" width="188" height="24" rx="12" fill="#071410"/>
+    <text x="262" y="25" fill="#8EF0D2" text-anchor="middle" font-size="13">kuangyx.cn</text>
+    <rect x="28" y="64" width="150" height="12" rx="4" fill="#3EE0B0"/>
+    <rect x="28" y="92" width="300" height="10" rx="4" fill="#FFFFFF" fill-opacity="0.16"/>
+    <rect x="28" y="114" width="260" height="10" rx="4" fill="#FFFFFF" fill-opacity="0.1"/>
+    <rect x="28" y="146" width="468" height="86" rx="12" fill="#3EE0B0" fill-opacity="0.1"/>
+    <text x="48" y="180" fill="#EFFFF8" font-size="22">把做过的东西写清楚。</text>
+    <text x="48" y="208" fill="#8FB8AC" font-size="14">Write down what actually shipped.</text>
+  </g>
+</svg>
