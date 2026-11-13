@@ -1,38 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 210" width="1300" height="210" fill="none">
+  <style>
+    @keyframes draw { 0%,12% { transform: scaleX(0) } 36%,82% { transform: scaleX(1) } 100% { transform: scaleX(0) } }
+    .draw { transform-box: fill-box; transform-origin: left center; animation: draw 7s cubic-bezier(.6,0,.2,1) infinite; }
+    @keyframes caret { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+    .caret { animation: caret 1.05s steps(1) infinite; }
+    @keyframes sweep { 0% { transform: translateX(-80px); opacity: 0 } 18% { opacity: .9 } 70% { opacity: .9 } 100% { transform: translateX(920px); opacity: 0 } }
+    .sweep { animation: sweep 6.5s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#070B14"/>
-      <stop offset="1" stop-color="#12182A"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1300" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B14"/><stop offset="1" stop-color="#141C33"/>
     </linearGradient>
-    <radialGradient id="glowIndigo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 40) scale(420)">
-      <stop stop-color="#6D7CFF" stop-opacity="0.5"/>
-      <stop offset="1" stop-color="#6D7CFF" stop-opacity="0"/>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 20) scale(340)">
+      <stop stop-color="#6D7CFF" stop-opacity="0.55"/><stop offset="1" stop-color="#6D7CFF" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowMint" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 400) scale(280)">
-      <stop stop-color="#3EE0B0" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#3EE0B0" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#FFFFFF" stroke-opacity="0.045"/>
     </pattern>
   </defs>
-  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
-  <rect width="1280" height="420" rx="28" fill="url(#grid)"/>
-  <rect width="1280" height="420" rx="28" fill="url(#glowIndigo)"/>
-  <rect width="1280" height="420" rx="28" fill="url(#glowMint)"/>
-  <rect x="1" y="1" width="1278" height="418" rx="27" stroke="#FFFFFF" stroke-opacity="0.08"/>
-  <text x="64" y="128" fill="#8EA0C8" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" letter-spacing="3.5">GITHUB  ·  TOMIAA12</text>
-  <text x="64" y="206" fill="#F4F7FF" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="72" font-weight="700">tomiaa</text>
-  <text x="64" y="262" fill="#E6EBF6" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="26">把能用的软件做出来，并放在公开的地方。</text>
-  <text x="64" y="302" fill="#8EA0C8" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="20">I build software you can open, and I keep the work in public.</text>
-  <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15">
-    <rect x="64" y="338" width="118" height="36" rx="18" fill="#6D7CFF" fill-opacity="0.16" stroke="#6D7CFF" stroke-opacity="0.45"/>
-    <text x="123" y="361" fill="#C9D2FF" text-anchor="middle">Desktop</text>
-    <rect x="194" y="338" width="118" height="36" rx="18" fill="#C084FC" fill-opacity="0.14" stroke="#C084FC" stroke-opacity="0.4"/>
-    <text x="253" y="361" fill="#E4D4FF" text-anchor="middle">Browser</text>
-    <rect x="324" y="338" width="92" height="36" rx="18" fill="#3EE0B0" fill-opacity="0.12" stroke="#3EE0B0" stroke-opacity="0.4"/>
-    <text x="370" y="361" fill="#C8F8E8" text-anchor="middle">Web</text>
-    <rect x="428" y="338" width="150" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
-    <text x="503" y="361" fill="#C5CEDF" text-anchor="middle">kuangyx.cn</text>
-  </g>
+  <rect width="1300" height="210" rx="24" fill="url(#bg)"/>
+  <rect width="1300" height="210" rx="24" fill="url(#grid)"/>
+  <rect width="1300" height="210" rx="24" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1298" height="208" rx="23" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="56" y="78" fill="#8EA0C8" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" letter-spacing="3">GITHUB  ·  TOMIAA12</text>
+  <text x="56" y="132" fill="#F4F7FF" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="700">tomiaa</text>
+  <rect class="caret" x="248" y="86" width="3" height="42" fill="#8EF0D2"/>
+  <rect class="draw" x="56" y="148" width="168" height="3" fill="#6D7CFF"/>
+  <rect class="sweep" x="56" y="146" width="90" height="7" fill="#8EF0D2" opacity="0.8"/>
+  <text x="56" y="182" fill="#C9D4E8" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="18">把能用的软件做出来，并放在公开的地方。</text>
 </svg>

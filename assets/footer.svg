@@ -1,12 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="168" viewBox="0 0 1280 168" fill="none">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="168" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#070B14"/>
-      <stop offset="1" stop-color="#101624"/>
-    </linearGradient>
-  </defs>
-  <rect width="1280" height="168" rx="28" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1278" height="166" rx="27" stroke="#FFFFFF" stroke-opacity="0.08"/>
-  <text x="640" y="72" fill="#F4F7FF" text-anchor="middle" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="700">还在做。</text>
-  <text x="640" y="112" fill="#8EA0C8" text-anchor="middle" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="18">Still building. The code lives here.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 150" width="1300" height="150" fill="none">
+  <style>
+    @keyframes caret { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+    .caret { animation: caret 1.05s steps(1) infinite; }
+    @keyframes draw { 0%,18% { transform: scaleX(0) } 48%,80% { transform: scaleX(1) } 100% { transform: scaleX(0) } }
+    .draw { transform-box: fill-box; transform-origin: center; animation: draw 6s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <rect width="1300" height="150" rx="24" fill="#070B14"/>
+  <rect x="1" y="1" width="1298" height="148" rx="23" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="650" y="68" fill="#F4F7FF" text-anchor="middle" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="700">还在做。</text>
+  <rect class="caret" x="748" y="46" width="3" height="24" fill="#8EF0D2"/>
+  <text x="650" y="104" fill="#8EA0C8" text-anchor="middle" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="16">Still building. The code lives here.</text>
+  <rect class="draw" x="560" y="120" width="180" height="2" fill="#6D7CFF"/>
 </svg>

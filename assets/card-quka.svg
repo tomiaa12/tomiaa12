@@ -1,52 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 360" width="1300" height="360" fill="none">
+  <style>
+    @keyframes pick { 0%,24% { transform: translateX(0) } 25%,49% { transform: translateX(124px) } 50%,74% { transform: translateX(248px) } 75%,100% { transform: translateX(372px) } }
+    .pick { animation: pick 4.4s steps(1) infinite; }
+    @keyframes caret { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+    .caret { animation: caret 1.05s steps(1) infinite; }
+    @keyframes type { 0%,8% { transform: scaleX(.15) } 40%,100% { transform: scaleX(1) } }
+    .q { transform-box: fill-box; transform-origin: left center; animation: type 4.4s ease-out infinite; }
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#100E09"/>
-      <stop offset="1" stop-color="#2A2112"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1300" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#100E09"/><stop offset="1" stop-color="#2A2112"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1060 30) scale(360)">
-      <stop stop-color="#F6C453" stop-opacity="0.4"/>
-      <stop offset="1" stop-color="#F6C453" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.04"/>
-    </pattern>
   </defs>
-  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
-  <rect width="1280" height="360" rx="28" fill="url(#grid)"/>
-  <rect width="1280" height="360" rx="28" fill="url(#glow)"/>
-  <rect x="1" y="1" width="1278" height="358" rx="27" stroke="#F6C453" stroke-opacity="0.42"/>
-  <text x="56" y="78" fill="#F6C453" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" letter-spacing="2.4">02  ·  LAUNCHER  ·  RUST</text>
-  <text x="56" y="148" fill="#FFF8EA" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="56" font-weight="700">Quka</text>
-  <text x="56" y="204" fill="#F3E6CC" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="24">双击 Ctrl 或 Command，打开本机应用。</text>
-  <text x="56" y="242" fill="#B5A488" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="18">A minimal Windows and macOS app launcher.</text>
+  <rect width="1300" height="360" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1298" height="358" rx="27" stroke="#F6C453" stroke-opacity="0.45"/>
+  <text x="52" y="78" fill="#F6C453" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" letter-spacing="2.2">02  ·  LAUNCHER  ·  RUST</text>
+  <text x="52" y="146" fill="#FFF8EA" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="54" font-weight="700">Quka</text>
+  <text x="52" y="198" fill="#F3E6CC" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="22">双击 Ctrl 或 Command，打开本机应用。</text>
+  <text x="52" y="234" fill="#B5A488" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="16">Double-tap Ctrl or Command to open an installed app.</text>
   <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="14">
-    <rect x="56" y="274" width="102" height="32" rx="16" fill="#F6C453" fill-opacity="0.16"/>
-    <text x="107" y="295" fill="#FFE7B0" text-anchor="middle">Windows</text>
-    <rect x="168" y="274" width="92" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.06"/>
-    <text x="214" y="295" fill="#F3E6CC" text-anchor="middle">macOS</text>
+    <rect x="52" y="268" width="102" height="32" rx="16" fill="#F6C453" fill-opacity="0.16"/>
+    <text x="103" y="289" fill="#FFE7B0" text-anchor="middle">Windows</text>
+    <rect x="164" y="268" width="92" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.06"/>
+    <text x="210" y="289" fill="#F3E6CC" text-anchor="middle">macOS</text>
   </g>
-  <g transform="translate(700,48)">
-    <rect width="524" height="264" rx="18" fill="#16130C" stroke="#F6C453" stroke-opacity="0.35"/>
-    <rect x="28" y="28" width="468" height="68" rx="16" fill="#221C10" stroke="#F6C453" stroke-opacity="0.55"/>
-    <circle cx="64" cy="62" r="9" fill="none" stroke="#F6C453" stroke-width="2"/>
-    <path d="M70 68L78 76" stroke="#F6C453" stroke-width="2" stroke-linecap="round"/>
-    <text x="92" y="69" fill="#F6C453" font-family="Segoe UI, sans-serif" font-size="22">Search apps</text>
-    <rect x="392" y="46" width="84" height="32" rx="8" fill="#F6C453" fill-opacity="0.14"/>
-    <text x="434" y="67" fill="#F6C453" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="13">Ctrl Ctrl</text>
+  <g transform="translate(690,46)">
+    <rect width="558" height="268" rx="18" fill="#16130C" stroke="#F6C453" stroke-opacity="0.35"/>
+    <rect x="24" y="24" width="510" height="64" rx="16" fill="#221C10" stroke="#F6C453" stroke-opacity="0.55"/>
+    <circle cx="56" cy="56" r="8" fill="none" stroke="#F6C453" stroke-width="2"/>
+    <path d="M61 61L68 68" stroke="#F6C453" stroke-width="2" stroke-linecap="round"/>
+    <rect class="q" x="84" y="48" width="210" height="16" rx="4" fill="#F6C453" fill-opacity="0.85"/>
+    <rect class="caret" x="300" y="46" width="2" height="20" fill="#F6C453"/>
+    <rect x="430" y="40" width="84" height="32" rx="8" fill="#F6C453" fill-opacity="0.14"/>
+    <text x="472" y="61" fill="#F6C453" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="13">Ctrl Ctrl</text>
+    <rect class="pick" x="24" y="112" width="112" height="124" rx="16" fill="none" stroke="#F6C453" stroke-width="2"/>
     <g font-family="Segoe UI, sans-serif" font-size="13">
-      <rect x="28" y="120" width="108" height="108" rx="16" fill="#2A2416"/>
-      <rect x="58" y="142" width="48" height="48" rx="12" fill="#F6C453"/>
-      <text x="82" y="212" fill="#E8D7B0" text-anchor="middle">Notes</text>
-      <rect x="148" y="120" width="108" height="108" rx="16" fill="#2A2416"/>
-      <rect x="178" y="142" width="48" height="48" rx="12" fill="#7C8CFF"/>
-      <text x="202" y="212" fill="#E8D7B0" text-anchor="middle">Code</text>
-      <rect x="268" y="120" width="108" height="108" rx="16" fill="#F6C453" fill-opacity="0.16" stroke="#F6C453" stroke-opacity="0.7"/>
-      <rect x="298" y="142" width="48" height="48" rx="12" fill="#3EE0B0"/>
-      <text x="322" y="212" fill="#FFE7B0" text-anchor="middle">Browser</text>
-      <rect x="388" y="120" width="108" height="108" rx="16" fill="#2A2416"/>
-      <rect x="418" y="142" width="48" height="48" rx="12" fill="#FF7A90"/>
-      <text x="442" y="212" fill="#E8D7B0" text-anchor="middle">Terminal</text>
+      <rect x="28" y="116" width="104" height="116" rx="16" fill="#2A2416"/>
+      <rect x="52" y="136" width="56" height="48" rx="12" fill="#F6C453"/>
+      <text x="80" y="210" fill="#E8D7B0" text-anchor="middle">Notes</text>
+      <rect x="152" y="116" width="104" height="116" rx="16" fill="#2A2416"/>
+      <rect x="176" y="136" width="56" height="48" rx="12" fill="#7C8CFF"/>
+      <text x="204" y="210" fill="#E8D7B0" text-anchor="middle">Code</text>
+      <rect x="276" y="116" width="104" height="116" rx="16" fill="#2A2416"/>
+      <rect x="300" y="136" width="56" height="48" rx="12" fill="#3EE0B0"/>
+      <text x="328" y="210" fill="#E8D7B0" text-anchor="middle">Browser</text>
+      <rect x="400" y="116" width="104" height="116" rx="16" fill="#2A2416"/>
+      <rect x="424" y="136" width="56" height="48" rx="12" fill="#FF7A90"/>
+      <text x="452" y="210" fill="#E8D7B0" text-anchor="middle">Terminal</text>
     </g>
   </g>
 </svg>
